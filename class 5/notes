@@ -1,0 +1,13 @@
+casting -> 
+1. implicit casting 
+2. explicit casting 
+	2.1 : compatible
+	2.2 : incompatible casting
+
+
+
+int -> float -> int == compatible 
+
+int <-! string <- int  ==>incompatible 
+
+
