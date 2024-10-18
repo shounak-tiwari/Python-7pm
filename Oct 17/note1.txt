@@ -1,0 +1,17 @@
+Function in python
+function is a block of code which is executed when it's call... 
+when we need to that code we will call that's 
+in python function has some protype (syntax) 
+1. no parameter without return 
+2. no paremeter with return 
+3. parameter without return 
+4. parameter with return 
+-------------------------------------------------------------------------------------------------
+how we create function in python programming language : 
+for creating function use def keyword 
+basic syntax of function :
+def functionname():
+	print("happy home")
+
+
+
