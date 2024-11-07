@@ -1,0 +1,25 @@
+Oops : object oriented programming 
+Developer of oops : Alan Kay and their team 
+Oops is developed in 1966-67 arround
+
+----------------------------------------------------------------------------------------------------
+1996 - java 
+1991 - feb 20 
+1972 - c 
+1979 -  cwith classes
+1983 - cpp 
+------------------------------------------------------------------------------------------------
+
+class and object in oops (Python)
+
+Class : Class is a blue print which is consists from variable and function 
+	(feilds and behaviour )
+
+
+
+python, class is created using class keywords 
+
+basic syntax of creating class : 
+
+class class_name:
+	
