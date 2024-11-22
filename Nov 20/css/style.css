@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Trade+Winds&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(16, 24, 77, 0.996);
+}
+
+
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to right, purple, rgb(135, 27, 135), rgba(9, 9, 103, 0.934), rgba(9, 9, 103, 0.934), rgb(61, 20, 61));
+}
+
+.navbar {
+    padding: 0px;
+    margin: 0px;
+    /* padding: 10px; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.brand-name h1 {
+    font-size: 35px;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    color: red;
+    text-align: center;
+    font-family: "Trade Winds", system-ui;
+}
+
+
+
+
+.navbar-items {
+    /* z-index: 900; */
+    padding: 5px;
+    /* background-color: red; */
+}
+
+.navbar-link {
+    text-decoration: none;
+    /* color: white; */
+    font-size: 25px;
+}
+
+
+.navcls {
+    /* border: 2px solid black; */
+    height: auto;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+
+.sec-1 {
+    height: 500px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/623/233/non_2x/3d-illustration-education-tablet-with-education-icons-on-on-hi-tech-background-education-banner-vector.jpg);
+
+    position: relative;
+    background-color: rgb(12, 12, 75);
+}
+
+
+.slogan {
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    font-family: "Sour Gummy", serif;
+}
+
+
+.sec-2 {
+    position: relative;
+    /* top: 100px; */
+    background-color: white;
+    /* height: 500px; */
+}
+
+
+.course-gallery {
+    padding: 20px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* column-gap: 90px; */
+}
+
+.course-card {
+    padding: 10px;
+    /* border: 2px solid black; */
+    width: 200px;
+    margin: 10px;
+
+}
+
+.img-cls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-name {
+    text-align: center;
+    font-size: 25px;
+}
+
+.sec-3 {
+    background-color:rgb(0, 0, 0);
+    /* border:2px solid red ; */
+    /* height: 500px; */
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10px;
+    position: relative;
+}
+
+.aboutus{
+    position: absolute;
+    padding: 100px;
+    right: 0px;
+    top: 30px;
+    font-size: 55px;
+    font-family: "Sour Gummy", serif;
+    /* transition: 4s; */
+}
+
+.details-about{
+    transform: scale(0.9);
+
+    color:white;
+    font-size: 30px;
+    padding: 20px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    transition: 2s;
+}
+
+.details-about:hover {
+    padding: 10px;
+    text-shadow: 3px 2px 2px goldenrod;
+    transform: scale(105%);
+}
+
+.aboutus:hover{
+    text-shadow: 5px 5px 19px goldenrod;
+
+}
