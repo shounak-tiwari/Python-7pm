@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Page</title>
+</head>
+<body>
+    <h1>update forms</h1>
+   <form method ="post">
+    {% csrf_token %}
+    <button type="submit" >yes delete </button>
+    <a href="{% url "read" %}" >cancel</a>
+   </form>
+    
+</body>
+</html>

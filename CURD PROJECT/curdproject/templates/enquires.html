@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .enquiry-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .label {
+            font-weight: bold;
+        }
+        .actions {
+            margin-top: 10px;
+        }
+        .btn {
+            padding: 5px 10px;
+            margin-right: 5px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .btn-delete {
+            background-color: red;
+        }
+        .btn-update {
+            background-color: blue;
+        }
+        hr {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enquiry Form</h1>
+
+    {% if enquires %}
+        {% for x in enquires %}
+            <div class="enquiry-container">
+                <p><span class="label">Name:</span> {{x.name}}</p>
+                <p><span class="label">Email:</span> {{x.email}}</p>
+                <p><span class="label">Contact:</span> {{x.contact}}</p>
+                <p><span class="label">Course:</span> {{x.course}}</p>
+                
+                <div class="actions">
+                    <!-- Delete button with dynamic URL -->
+                    <a href="/delete/{{x.id}}" class="btn btn-delete">Delete</a>
+                    
+                    <!-- Update button with dynamic URL -->
+                    <a href="/update_enquires/{{x.id}}" class="btn btn-update">Update</a>
+                </div>
+            </div>
+            <hr>
+        {% endfor %}
+    {% else %}
+        <p>No enquiries found.</p>
+    {% endif %}
+</body>
+</html>

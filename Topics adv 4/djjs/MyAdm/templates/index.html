@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load static %}
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    
+</head>
+
+<body>
+    <h1>Welcome to DJ JS</h1>
+    <form>
+        <label for="name">Name</label>
+        <input id="name_inp" type="text" placeholder="e.g. Universal Informatics">
+        <p id="msg"></p>
+    </form>
+    <script src="{% static 'js/app1.js' %}"></script>
+</body>
+
+</html>
